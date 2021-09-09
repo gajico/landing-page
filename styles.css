@@ -1,3 +1,25 @@
 body {
     font-family: Fira Sans;
 }
+
+.header {
+    background-color:#2b8af0;
+    padding:15px;
+    text-align:left;
+    font-size:25px;
+}
+
+.logo {
+    color: white;
+}
+
+.menu-login, .menu-login a {
+    color: white;
+    text-align:right;
+    float:right;
+    background-color:red;
+    padding:10px;
+    font-size:18px;
+    text-decoration:none;
+    
+}
