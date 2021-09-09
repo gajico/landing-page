@@ -1,5 +1,15 @@
 # landing-page
 
+# Problema
+
+- Gasto excessivo de papel em eventos, com folhetos e cartoes de visitas.
+
+- Dificuldade para conferir lista de presença manualmente na emissão de certificados.
+
+- Dificuldade para fazer perguntas ao palestrante.
+
+- Aglomeração e contato dos participantes, além de compartilhamento de material na hora de preencher a lista de presença (COVID19).
+
 
 # Objetivo 
 
