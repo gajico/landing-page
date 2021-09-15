@@ -73,7 +73,7 @@ body {
   padding: 100px;
   padding-right: 950px;
   text-align: center;
-  
+
 }
 
 .funcionalidades h1 {
@@ -99,6 +99,10 @@ body {
     float: none;
   }
 
+}
+
+#landing-main {
+    padding-left: 20px;
 }
 
 input[type=text]{
