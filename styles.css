@@ -108,6 +108,7 @@ a {
 
 #sobre img {
   border-radius: 50%;
+  margin: 50px;
 }
 
 @media screen and (max-width: 500px) {
