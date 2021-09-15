@@ -5,6 +5,14 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -76,26 +84,30 @@ body {
   float: right;
 }
 
-.sobre {
+#sobre {
   background-image: linear-gradient(to right, rgb(45, 138, 45),rgb(56, 170, 31));
   background-color: rgb(45, 138, 45);
   color : white;
   padding: 100px;
   padding-left: 150px;
-  
-  
+
+
 }
 
-.sobre h1 {
+#sobre h1 {
   font-size: 50px;
 }
 
-.sobre h2 {
+#sobre h2 {
   font-size: 36px;
 }
 
-.sobre p {
+#sobre p {
   font-size: 30px;
+}
+
+#sobre img {
+  border-radius: 50%;
 }
 
 @media screen and (max-width: 500px) {
