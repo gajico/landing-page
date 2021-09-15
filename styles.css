@@ -1,13 +1,8 @@
 * {box-sizing: border-box;}
 
-<<<<<<< HEAD
-footer {
-    color:
-=======
-body { 
+body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
->>>>>>> e59584a5987b2e4aa095b2f186d04b6e50a9511a
 }
 
 .header {
@@ -22,7 +17,7 @@ body {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -39,7 +34,6 @@ body {
   color: black;
 }
 
-<<<<<<< HEAD
 .container-footer {
     display: flex;
     gap: 1rem 2rem;
@@ -54,7 +48,8 @@ body {
     padding-bottom: 1rem;
     background-color: #F8F8F8;
     text-align: center;
-=======
+}
+
 .header a.active {
   background-color: grey;
   color: white;
@@ -62,7 +57,6 @@ body {
 
 .header-right {
   float: right;
->>>>>>> e59584a5987b2e4aa095b2f186d04b6e50a9511a
 }
 
 @media screen and (max-width: 500px) {
@@ -71,7 +65,7 @@ body {
     display: block;
     text-align: left;
   }
-  
+
   .header-right {
     float: none;
   }
