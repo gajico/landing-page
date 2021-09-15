@@ -1,6 +1,7 @@
-body {
-    font-family: Fira Sans;
+body { font-family: Fira Sans;
 }
+
+footer {}
 
 .header {
     background-color:#2b8af0;
@@ -21,5 +22,14 @@ body {
     padding:10px;
     font-size:18px;
     text-decoration:none;
+}
 
+.grey-text {
+    color: grey;
+}
+
+.container-footer {
+    display: flex;
+
+    justify-content: space-around;
 }
