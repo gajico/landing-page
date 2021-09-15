@@ -43,6 +43,29 @@ body {
   float: right;
 }
 
+.funcionalidades {
+  width: auto;
+  height: auto;
+  background-color: rgb(45, 138, 45);
+  color : white;
+  padding: 100px;
+  padding-right: 950px;
+  text-align: center;
+  
+}
+
+.funcionalidades h1 {
+  font-size: 50px;
+}
+
+.funcionalidades h2 {
+  font-size: 36px;
+}
+
+.funcionalidades p {
+  font-size: 30px;
+}
+
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
