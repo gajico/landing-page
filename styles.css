@@ -1,7 +1,9 @@
 body { font-family: Fira Sans;
 }
 
-footer {}
+footer {
+    color:
+}
 
 .header {
     background-color:#2b8af0;
@@ -30,6 +32,16 @@ footer {}
 
 .container-footer {
     display: flex;
+    gap: 1rem 2rem;
+}
 
-    justify-content: space-around;
+.footer-items {
+    background-color: #F8F8F8;
+}
+
+.copyright {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-color: #F8F8F8;
+    text-align: center;
 }
