@@ -50,6 +50,10 @@ body {
     text-align: center;
 }
 
+.grey-text {
+    color: grey;
+}
+
 .header a.active {
   background-color: grey;
   color: white;
