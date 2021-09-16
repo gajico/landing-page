@@ -90,7 +90,6 @@ a {
     gap: 5%;
     text-align: left;
     padding-top: 3rem;
-    padding-bottom: 3rem;
 }
 
 .imagem-publico {
@@ -151,7 +150,7 @@ a {
 }
 
 #publico-alvo {
-    padding: 2rem;
+    padding: 100px;
     background-color: #69AB6C;
     text-align: center;
 }
@@ -224,7 +223,7 @@ input[type=submit]:hover {
   padding:100px;
   text-align:center;
   display:table;
-  
+
 }
 .func-col {
   float:left;
