@@ -186,3 +186,26 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
+
+/* funcionalidades */
+#funcionalidades {
+  background-color: rgb(110, 206, 235);
+  width:100%;
+  height:100%;
+  padding:100px;
+  text-align:center;
+  display:table;
+  
+}
+.func-col {
+  float:left;
+  width: 33.33%;
+  padding:10px;
+
+}
+.func-content {
+
+}
+
+
+}
