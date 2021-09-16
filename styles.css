@@ -188,11 +188,11 @@ a.active {
 
 #texto-atrativo {
     color: white;
-    font-size: 4rem;
+    font-size: 3vw;
 }
 
 #landing-main {
-    padding-left: 20px;
+    padding: 20%;
     background-image:
         linear-gradient(to bottom, rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.4)),
         url('https://www.albany.edu/sites/default/files/keynote-speaker.jpg');
@@ -201,22 +201,24 @@ a.active {
 }
 
 input[type=text]{
-  width: 300px;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-radius: 5px;
+    width: 30vw;
+    font-size: 1vw;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 input[type=submit] {
-  width: 96px;
-  padding: 12px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border-radius: 5px;
+      width: 8vw;
+      padding: 12px;
+      font-size: 1vw;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 5px;
 }
 
 input[type=checkbox] {
