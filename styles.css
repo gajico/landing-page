@@ -248,7 +248,10 @@ input[type=submit]:hover {
   }
 
   #landing-main {
-      padding: 40vw 5vw 40vw 5vw;
+      padding: 0vw;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
   }
 
   #landing-main h1 {
