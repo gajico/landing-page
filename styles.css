@@ -186,23 +186,20 @@ input[type=text]{
     border-radius: 5px;
 }
 input[type=submit] {
-      width: 12vw;
-      padding: 12px;
-      font-size: 1.5vw;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #FF8D1E;
-      box-sizing: border-box;
-      border-radius: 5px;
+    width: 12vw;
+    padding: 12px;
+    font-size: 1.5vw;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #FF8D1E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FF8D1E;
+    color: white;
 }
 
 input[type=checkbox] {
   margin-top: 16px;
-}
-
-input[type=submit] {
-  background-color: #FF8D1E;
-  color: white;
 }
 
 input[type=submit]:hover {
