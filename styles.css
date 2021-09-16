@@ -107,8 +107,24 @@ a {
 }
 
 #sobre img {
+  width: 125px;
+  height: 125px;
   border-radius: 50%;
+}
+
+.grid_avatar {
   margin: 50px;
+  gap: 50px;
+  display: flex;
+}
+.avatar {
+  align-items: center;
+  text-align: center;
+}
+
+#publico-alvo {
+    background-color: green;
+    text-align: center;
 }
 
 @media screen and (max-width: 500px) {
