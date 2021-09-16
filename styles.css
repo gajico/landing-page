@@ -46,18 +46,23 @@ a {
 
 .container-footer {
     display: flex;
-    gap: 1rem 2rem;
+    gap: 10%;
     float:block;
-    padding: 2rem 4rem 2rem 4rem;
+    padding: 2%;
 }
 
 .footer-items {
     background-color: #F8F8F8;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+}
+
 .copyright {
-    padding-top: 5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1%;
     background-color: #F8F8F8;
     text-align: center;
 }
@@ -67,7 +72,7 @@ a {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 6vw;
     font-family: 'Fira Sans', monospace;
     color: #999999;
     margin-left: auto;
