@@ -110,7 +110,8 @@ a.active {
 }
 
 .imagem-publico p {
-    padding-left: 1rem;
+    padding-left: 3%;
+    font-size: 1vw;
 }
 
 #sobre {
@@ -150,12 +151,13 @@ a.active {
 }
 
 #publico-alvo {
-    padding: 100px;
+    padding: 10% 10% 10% 10%;
     background-color: #69AB6C;
     text-align: center;
+    font-size: 2vw;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .header a {
     float: none;
     display: block;
@@ -166,6 +168,26 @@ a.active {
     float: none;
   }
 
+  .grid-imagens-publico {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .imagem-publico {
+      margin-bottom: 5%;
+      width: auto;
+  }
+
+  .imagem-publico p {
+      font-size: 3vw;
+      text-align: center;
+      padding: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+    .imagem-publico {
+        height: auto;
+    }
 }
 
 #texto-atrativo {
