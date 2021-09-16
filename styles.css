@@ -139,20 +139,11 @@ a.active {
   font-size: 30px;
 }
 
-#sobre img {
-  width: 125px;
-  height: 125px;
+.avatar img {
+  width: 50%;
+  height: 50%;
   border-radius: 50%;
-}
 
-.grid_avatar {
-  margin: 50px;
-  gap: 50px;
-  display: flex;
-}
-.avatar {
-  align-items: center;
-  text-align: center;
 }
 
 #publico-alvo {
