@@ -220,6 +220,11 @@ input[type=submit]:hover {
     float: none;
     display: block;
     text-align: left;
+    background-color: transparent;
+  }
+
+  .header {
+      display: none;
   }
 
   .header-right {
@@ -243,8 +248,19 @@ input[type=submit]:hover {
   }
 
   #landing-main {
-      padding-top: 40vw;
-      padding-bottom: 40vw;
+      padding: 40vw 5vw 40vw 5vw;
+  }
+
+  #landing-main h1 {
+      font-size: 6vw;
+  }
+
+  footer {
+      font-size: 2vw;
+  }
+
+  .container-footer {
+      justify-content: space-around;
   }
 
   form {
@@ -255,12 +271,12 @@ input[type=submit]:hover {
   }
 
   input[type=text] {
-      width: 60vw;
-      font-size: 2vw;
+      width: 80vw;
+      font-size: 3vw;
   }
   input[type=submit] {
-      width: 30vw;
-      font-size: 2vw;
+      width: 40vw;
+      font-size: 3vw;
   }
 }
 @media screen and (min-width: 900px) {
