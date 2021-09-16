@@ -257,6 +257,10 @@ input[type=submit]:hover {
       padding: 0px;
   }
 
+  #sobre p {
+      font-size: 3vw;
+  }
+
   #landing-main {
       padding: 0vw;
       justify-content: center;
