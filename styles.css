@@ -75,7 +75,7 @@ a {
 }
 
 
-.header a.active {
+a.active {
   background-color: grey;
   color: white;
 }
