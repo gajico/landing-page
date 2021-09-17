@@ -194,19 +194,12 @@ input[type=text]{
       font-size: 1.5vw;
       margin: 8px 0;
       display: inline-block;
-      border: 1px solid #FFA205;
+      border: 1px solid #FF8D1E;
       box-sizing: border-box;
       border-radius: 5px;
+      background-color: #FF8D1E;
+      color: white;
       cursor: pointer;
-}
-
-input[type=checkbox] {
-  margin-top: 16px;
-}
-
-.botao {
-  background-color: #FFA205;
-  color: white;
 }
 
 .botao:hover {
@@ -281,6 +274,10 @@ input[type=checkbox] {
       font-size: 3vw;
       text-align: center;
       padding: 0px;
+  }
+
+  #sobre p {
+      font-size: 3vw;
   }
 
   #landing-main {
