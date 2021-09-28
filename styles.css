@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0%;
+    font-family: monospace;
 }
 
 a {
@@ -10,24 +11,54 @@ a {
 
 .mainHeader {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
 
-    background-color: grey;
+    background-color: white;
+    color: black;
+    font-size: 1.25vw;
 
-    padding: 1rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    padding: 1.5rem 2rem;
     margin: 0;
 }
 
+.headerAnchors a {
+    background-color: white;
+
+    transition: background-color 250ms ease-in;
+
+    padding: 1rem;
+}
+
+.headerAnchors a:hover {
+    background-color: #EEEEEE;
+
+    transition: background-color 250ms ease-out;
+}
+
 .headerLogo {
+    justify-self: flex-start;
+
     background-color: dodgerblue;
     color: white;
-    font-size: 1.5vw;
-    cursor: pointer;
 
-    padding: 1rem 2rem;
-    margin: 0;
+    transition: background-color 250ms ease-in,
+                color 250ms ease-in;
+
+    padding: 1rem 1.5rem;
+    margin-right: auto;
+    border-radius: 10px;
 }
 
 .headerLogo:hover {
     background-color: #EEEEEE;
     color: black;
+
+    transition: background-color 250ms ease-out,
+                color 250ms ease-out;
 }
