@@ -80,9 +80,11 @@ a {
 .landing {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 
-    padding: 25rem;
+    color: white;
+    font-size: 5vw;
+
+    padding: 15rem 20rem;
 }
 
 input[type=text]{
@@ -93,3 +95,22 @@ input[type=text]{
     border-radius: 5px;
 }
 
+.button {
+    background-color: #FF8D1E;
+    color: white;
+    cursor: pointer;
+
+    transition: background-color 250ms ease-in;
+
+    width: 10vw;
+    padding: 1rem;
+    font-size: 1.5vw;
+    border: 1px solid #FF8D1E;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: transparent;
+
+    transition: background-color 250ms ease-out;
+}
