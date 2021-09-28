@@ -27,6 +27,10 @@ a {
     margin: 0;
 }
 
+.headerAnchors {
+    display: flex;
+}
+
 .headerAnchors a {
     background-color: white;
 
@@ -61,4 +65,20 @@ a {
 
     transition: background-color 250ms ease-out,
                 color 250ms ease-out;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+
+    background-color: grey;
+    font-size: 5vw;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 25rem;
 }
