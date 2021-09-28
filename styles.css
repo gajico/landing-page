@@ -84,3 +84,12 @@ a {
 
     padding: 25rem;
 }
+
+input[type=text]{
+    width: 40vw;
+    font-size: 1.5vw;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
