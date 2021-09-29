@@ -89,7 +89,7 @@ a {
     font-size: 5vw;
 }
 
-.landing {
+#landing {
     display: flex;
     flex-direction: column;
 
@@ -132,7 +132,7 @@ input[type=text]{
     transition: background-color 250ms ease-out;
 }
 
-.sobre {
+#sobre {
     display: flex;
     justify-content: space-around;
 
@@ -154,6 +154,40 @@ input[type=text]{
 
 .info p {
     font-size: 1.25vw;
+    color: #555;
+}
+
+#funcionalidades {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    gap: 20rem;
+
+    background-color: white;
+    color: white;
+
+    font-size: 1vw;
+    padding: 20vh 10rem;
+}
+
+#funcionalidades img {
+    width: 382px;
+    height: 723px;
+}
+
+.funcionalidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10rem;
+}
+
+.mockupInfo {
+    font-size: 2vw;
+    color: black;
+}
+
+.mockupInfo p {
     color: #555;
 }
 
