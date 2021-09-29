@@ -158,7 +158,7 @@ input[type=text]{
     flex-direction: column;
     gap: 3rem;
 
-    background: linear-gradient(white, #eee);
+    background: linear-gradient(#eee, #ccc);
     font-size: 1.25vw;
 
     padding: 4rem 7rem;
