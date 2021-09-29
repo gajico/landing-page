@@ -11,6 +11,17 @@ a {
     text-decoration: none;
 }
 
+.material-icons-outlined {
+    align-self: center;
+    color: dodgerblue;
+    cursor: default;
+}
+
+.material-icons-outlined.md-18 {font-size: 18px;}
+.material-icons-outlined.md-24 {font-size: 24px;}
+.material-icons-outlined.md-36 {font-size: 36px;}
+.material-icons-outlined.md-48 {font-size: 48px;}
+
 .mainHeader {
     display: flex;
     justify-content: flex-end;
@@ -139,16 +150,40 @@ input[type=text]{
 
 .info p {
     font-size: 1.25vw;
-    color: #555555;
+    color: #555;
 }
 
-.material-icons-outlined {
+.mainFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    background: linear-gradient(white, #eee);
+    font-size: 1.25vw;
+
+    padding: 4rem 7rem;
+}
+
+.footerSections {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section p {
+    margin: 0;
+}
+
+.section a {
+    color: #555;
+}
+
+.copyright {
+    color: #555;
     align-self: center;
-    color: dodgerblue;
-    cursor: default;
 }
-
-.material-icons-outlined.md-18 {font-size: 18px;}
-.material-icons-outlined.md-24 {font-size: 24px;}
-.material-icons-outlined.md-36 {font-size: 36px;}
-.material-icons-outlined.md-48 {font-size: 48px;}
