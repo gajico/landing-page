@@ -235,7 +235,7 @@ input[type=text]{
     font-size: 1.75vw;
 }
 
-.grid-imagens-publico {
+.gridImagensPublico {
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -243,7 +243,7 @@ input[type=text]{
     padding-top: 3rem;
 }
 
-.imagem-publico {
+.imagemPublico {
     width: 30%;
     height: 100%;
     background-color: #eee;
@@ -253,7 +253,7 @@ input[type=text]{
     position: relative;
 }
 
-.imagem-publico img {
+.imagemPublico img {
     background-color: white;
     background-size: 100%;
     width: 100%;
@@ -261,8 +261,80 @@ input[type=text]{
     object-fit: fill;
 }
 
-.imagem-publico p {
+.imagemPublico p {
     padding-left: 3%;
     font-size: 1vw;
 }
 
+@media screen and (max-width: 1200px) {
+    .mainHeader {
+        display: none;
+    }
+
+    .landing {
+        text-justify: center;
+    }
+
+    .landingForm {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    input[type=submit] {
+        width: 40vw;
+    }
+
+    #sobre {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .info h1 {
+        font-size: 3vw;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .gridImagensPublico {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    .imagemPublico {
+        width: 70vw;
+    }
+
+    .imagemPublico p {
+        font-size: 1.25vw;
+    }
+
+    .mainFooter {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section {
+        font-size: 2vw;
+        text-justify: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+}
