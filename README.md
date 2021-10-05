@@ -1,5 +1,4 @@
 # landing-page
-teste
 # Problema
 
 - Gasto excessivo de papel em eventos, com folhetos e cartoes de visitas;
