@@ -102,16 +102,23 @@ h1 {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 255, 0.7)),
         url('https://www.albany.edu/sites/default/files/keynote-speaker.jpg');
-    font-size: 5vw;
+    font-size: 3rem;
 
-    padding: 15vh 20rem;
+    padding: 5rem 4rem;
     height: 70vh;
 
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing p {
+    max-width: 25%;
 }
 
 input[type=text]{
-    width: 40vw;
-    font-size: 1.5vw;
+    width: 93%;
+    font-size: 1.5rem;
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -126,7 +133,7 @@ input[type=text]{
 
     width: 10vw;
     padding: 1rem;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     border: 1px solid #FF8D1E;
     border-radius: 5px;
 }
@@ -223,7 +230,7 @@ input[type=text]{
     background: linear-gradient(#fff, #ccc);
     font-size: 1.25rem;
 
-    padding: 4rem 7rem;
+    padding: 5rem 8rem;
 }
 
 .footerSections {
@@ -260,7 +267,7 @@ input[type=text]{
 .gridImagensPublico {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 1.5rem;
     text-align: left;
     padding-top: 3rem;
 }
@@ -289,6 +296,22 @@ input[type=text]{
 }
 
 @media screen and (max-width: 1200px) {
+    #funcionalidades {
+        padding: 5rem 4rem;
+    }
+  
+    .gridImagensPublico {
+        gap: 2rem;
+    }
+    
+    .funcionalidade {   
+        flex-direction: column;
+    }
+    
+    .funcionalidade:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
     .mainHeader {
         display: none;
     }
@@ -297,18 +320,24 @@ input[type=text]{
         text-align: center;
     }
 
+    #landing p {
+        max-width: 100%;
+    }
+
     .landingForm {
         display: flex;
         flex-direction: column;
         gap: 2rem;
 
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
+        align-items: start;
 
+        width: 100%;
+        padding: 0rem 4rem;
     }
 
     input[type=submit] {
-        width: 40vw;
+        width: 100%;
     }
 
     #sobre {
@@ -332,7 +361,6 @@ input[type=text]{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10rem;
     }
 
     .imagemPublico {
@@ -356,7 +384,7 @@ input[type=text]{
     }
 
     .copyright {
-        font-size: 2.5rem;
+        font-size: 1rem;
     }
 }
 
