@@ -110,14 +110,20 @@ h1 {
     align-content: center;
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 
+.landingForm {
+    display: flex;
+    gap: 1rem;
+  }
+
 #landing p {
-    max-width: 25%;
+    max-width: 36%;
 }
 
 input[type=text]{
-    width: 93%;
+    width: 25rem;
     font-size: 1.5rem;
     padding: 1rem;
     border: 1px solid #ccc;
@@ -216,6 +222,8 @@ input[type=text]{
 .mockupInfo {
     font-size: 1.75rem;
     color: black;
+    max-width: 35rem;
+    text-align: justify;
 }
 
 .mockupInfo p {
@@ -334,6 +342,10 @@ input[type=text]{
 
         width: 100%;
         padding: 0rem 4rem;
+    }
+
+    .landingForm input {
+        width: 93%;
     }
 
     input[type=submit] {
